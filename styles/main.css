@@ -24,6 +24,21 @@ i{
     opacity: 0.33;
 }
 
+.selected{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 30px solid transparent;
+    border-bottom : 30px solid white;
+    border-left : 30px solid transparent;
+}
+
 .selected  a  i{
     opacity: 1;
 }
