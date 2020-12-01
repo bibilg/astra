@@ -11,16 +11,20 @@ body{
 header{
     display: flex;
     justify-content: center;
-    margin: 150px;
+    margin: 8.5em;
 }
 
 
 i{
     text-decoration: none;
-    color: black;
-    font-size: 40px;
+    color: white;
+    font-size: 60px;
     margin: 20px;
     opacity: 0.33;
+}
+
+.selected  a  i{
+    opacity: 1;
 }
 
 i:hover{
