@@ -101,6 +101,10 @@ footer a{
     color: white   ;
 }
 
+footer a:hover{
+    font-size: 125%;
+}
+
 footer p{
     padding: 0 2%;
 }
