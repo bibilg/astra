@@ -12,7 +12,7 @@ body{
 header{
     display: flex;
     justify-content: center;
-    padding: 5% 8.5% 0 8.5%;
+    padding: 3% 8.5% 0 8.5%;
 }
 
 
@@ -94,6 +94,7 @@ footer{
     margin: 5%;
     font-size: 125%;
     opacity: 0.6;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 footer a{
