@@ -35,14 +35,14 @@ i{
     font-size: 120%;
 }
 
-.selected_hidden, .work_hidden, .contact_hidden, .twitter_hidden{
+.hidden{
     position: relative;
     background-color: black;
     padding: 15% 30%;
     opacity: 0; /* To make dissapear ; display : none make everything move */
 }
 
-a:hover + .selected_hidden, a:hover + .work_hidden, a:hover + .contact_hidden, a:hover + .twitter_hidden{
+a:hover + .hidden{
     opacity: 1;
     display: block;
 }
