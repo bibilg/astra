@@ -8,6 +8,8 @@ body{
     background-color:#95a5a6;
 }
 
+/* Header */ 
+
 header{
     display: flex;
     justify-content: center;
@@ -23,10 +25,26 @@ i{
     opacity: 0.33;
 }
 
-.selected{
+.selected, .work, .contact, .twitter{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+}
+
+.selected_hidden, .work_hidden, .contact_hidden, .twitter_hidden{
+    position: relative;
+    background-color: black;
+    padding: 15% 30%;
+    opacity: 0; /* To make dissapear ; display : none make everything move */
+}
+
+a:hover + .selected_hidden, a:hover + .work_hidden, a:hover + .contact_hidden, a:hover + .twitter_hidden{
+    opacity: 1;
+    display: block;
 }
 
 .triangle{
@@ -38,6 +56,16 @@ i{
     border-left : 30px solid transparent;
 }
 
+/* For have the four blocks on the same size */
+.triangle_hidden{
+    height : 0;
+    width : 0;
+    border-right : 30px solid transparent;
+    border-bottom : 30px solid white;
+    border-left : 30px solid transparent;
+    opacity: 0;
+}
+
 .selected  a  i{
     opacity: 1;
 }
@@ -45,7 +73,10 @@ i{
 i:hover{
     opacity: 1;
     cursor: grab;
+
 }
+
+
 
 /* Main */ 
 
