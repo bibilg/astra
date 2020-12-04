@@ -51,8 +51,22 @@ i:hover{
 /* Main */ 
 
 main{
-    height: 50vh;
     margin: 0 20% 0 20%;
     background-color: white;
+    display: flex;
+
 }
 
+.main_left{
+    width: 60%;
+}
+
+.main_right{
+    overflow: hidden;
+    width: 40%;
+}
+
+.main_right img{
+    width: 100%;
+    height: 100%;
+}
